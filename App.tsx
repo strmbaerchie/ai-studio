@@ -1,4 +1,4 @@
-
+import RecipeCard from ´./components/RecipeCard´;
 import React, { useState, useMemo, useEffect } from 'react';
 import { ALL_RECIPES } from './data/recipes';
 import { Category, Recipe, ShoppingItem } from './types';
